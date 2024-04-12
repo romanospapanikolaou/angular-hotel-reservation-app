@@ -1,0 +1,11 @@
+.img-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?cs=srgb&dl=pexels-donald-tong-189296.jpg&fm=jpg");
+  background-size: cover;
+  filter: blur(6px); /* Adjust the blur intensity as needed */
+  z-index: -1; /* Send it to the back */
+}
